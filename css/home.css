@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+	padding: 0;
+  background: #C9FFBF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#box1
+
+{  
+     height: 60vh;
+            width: 100%;
+            background-image: url(https://images.pexels.com/photos/618545/pexels-photo-618545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+
+}
+
+#box2
+{ 
+  height: 60vh;
+            width: 100%;
+            background-image: url(https://images.pexels.com/photos/219561/pexels-photo-219561.jpeg?auto=compress&cs=tinysrgb&h=350);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+}
+
+#box3
+{   height: 60vh;
+            width: 100%;
+            background-image: url(https://images.pexels.com/photos/1021068/pexels-photo-1021068.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+}
+
+#box4
+{   height: 60vh;
+            width: 100%;
+            background-image: url(https://images.pexels.com/photos/610294/pexels-photo-610294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+}
+
+#box5
+{   height: 60vh;
+            width: 100%;
+            background-image: url(https://images.pexels.com/photos/42263/foggy-mist-forest-trees-42263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+}
+h1
+{
+	 font-family: arial black;
+            font-size: 50px;
+            color:white;
+            margin: 0px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+    
+}
+
+#nature
+{
+    width: 100%;
+    height:400px;
+    animation: nature 10s infinite;
+        background-image: url('https://images.pexels.com/photos/476692/pexels-photo-476692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-size: cover;
+    color: white;
+     background-attachment: fixed;
+}
+#scenery
+{
+    width: 100%;
+    height:400px;
+    animation: scenery 10s infinite;
+   background-image: url('https://images.pexels.com/photos/570990/pexels-photo-570990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-size: cover;
+    color: white;
+     background-attachment: fixed;
+}
+
+@keyframes nature
+{
+    0%
+    {
+        background-image: url('https://images.pexels.com/photos/476692/pexels-photo-476692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-size: cover;
+        
+    }
+    50%
+    {
+        background-image: url('https://images.pexels.com/photos/204867/pexels-photo-204867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-size: cover;
+        background-position: center
+     
+    }
+    75%
+    {
+        background-image: url('https://images.pexels.com/photos/68470/pexels-photo-68470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-size: cover;
+        
+    }
+     100%
+    {
+        background-image: url('https://images.pexels.com/photos/167976/pexels-photo-167976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-size: cover;
+    
+    }
+   
+}
+@keyframes scenery
+{
+    0%
+    {
+        background-image: url('https://images.pexels.com/photos/570990/pexels-photo-570990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-size: cover;
+        
+    }
+    50%
+    {
+        background-image: url('https://images.pexels.com/photos/161029/cottage-lake-water-nature-161029.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-size: cover;
+        background-position: center
+     
+    }
+    75%
+    {
+        background-image: url('https://images.pexels.com/photos/235721/pexels-photo-235721.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-size: cover;
+        
+    }
+     100%
+    {
+        background-image: url('https://images.pexels.com/photos/724955/pexels-photo-724955.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-size: cover;
+    
+    }
+   
+}
+
+.carousel{
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+
+.carousel .item{
+    height: 500px;
+} 
+
+.carousel-inner > .item > img{
+    position: absolute;
+    height: 500px;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+}
+
+.thumbnail > img{
+    height: 300px;
+    width: 250px;
+    background-color: bisque;
+    
+}
+
+.img-rounded > img{
+    height:200px ;
+    width: 100%;
+}
+
+.img-circle > img{
+    padding-top: 10px;
+    height: 300px;
+    width:350px ;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.card-container
+{
+	perspective: 700;
+
+}
+
+.card
+
+{   
+    
+    position: relative;
+    color: white;
+	text-align:center;
+	line-height: 200px;
+	margin: 20px;
+	
+	width: 300px;
+	height: 200px;
+	transition: all 0.6s ease;
+	transform-style: preserve-3d;
+}
+.front
+{    
+	background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 200px;
+	backface-visibility: hidden;
+
+}
+.back {
+	background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 200px;
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+}
+img{
+	height: 200px;
+	width: 300px;
+}
+
+h1
+{
+	margin: 0;
+    text-align: center;
+    font-family: cursive;
+    padding-top: 10px:
+}
+
+
+.card:hover
+{
+	transform: rotateY(180deg);
+}
+
+.jumbotron > h1{
+    
+    font-family: 'Courgette', cursive;
+    color: mediumvioletred;
+    text-shadow: 5px;
+    font-weight: bold;
+    
+}
+.jumbotron{
+    background: #283c86;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100%;
+}
+footer{
+    background-color: palevioletred;
+    height: 80px;
+    width: 100%;
+}
+footer h1{
+    color: darkviolet;
+    font-size: 30px;
+   text-align: center;
+    font-family: 'Courgette', cursive;
+}
+footer > div > p{
+     font-family: 'Courgette', cursive;
+     font-size: 20px;
+    padding-right: 80px;
+}
+
+.fa {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
